@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "IranianSansBold";
+    src: local("IranianSansBold"),
+     url("fonts/IRANSans-Medium.ttf") format("truetype");
+    font-weight: bold;
+   }
+@font-face {
+    font-family: 'IranianSans';
+    src: url('fonts/IRANSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+boby{
+    background-color: '#f6f9ff';
+    font-family: 'IranianSansBold'!important;
+}
+main{
+    font-family: 'IranianSans';
+    min-height: 80vh;
+    direction: rtl;
+}
+.text{
+    font-family: 'IranianSansBold'!important;
+    font-size: 14px;
+
+
+}
+h1{
+    font-family: 'IranianSansBold'!important;
+    color:#fff !important;   
+    font-size:16px !important;
+
+    font-weight: 900 !important;
+
+}
+h4{
+    font-family: 'IranianSansBold';
+    color:#6DA5C0 !important;  
+    font-size:14px !important;
+    padding: 0;
+    margin: 0;
+ 
+}
+.titlegrid{
+    font-family: 'IranianSansBold';
+    color: #6DA5C0 !important;  
+    font-size:14px !important;
+ 
+}
+.normaltxt{
+    font-family: 'IranianSans';
+    color: #0C7075 !important;  
+    font-size:14px !important;
+ 
+}
+.linkblue{
+    font-family: 'IranianSans' !important; 
+    color:#9edde6 !important; 
+    font-size:16px !important;
+    text-decoration: none;
+    
+}
+.linkblack{
+    font-family: 'IranianSans' !important; 
+    color:#666 !important; 
+    font-size:16px !important;
+    text-decoration: none;
+    
+}
+.linkwhite{
+    font-family: 'IranianSans' !important; 
+    color:#fff !important; 
+    font-size:14px !important;
+    text-decoration: none;
+    
+}
+.navlink{
+    font-family: 'IranianSans' !important; 
+    color:#fff !important; 
+}
+.navitem{
+    font-family: 'IranianSans' !important; 
+    color:#000 !important; 
+}
+.nav-links {
+    background-color:white;/*will change background-color of element */
+    border: '1px solid black';
+    color:black !important;
+    border-radius: '5px' !important;
+    font-family: 'IranianSansBold'!important;
+
+    }
+  .nav-links:focus {
+    border: 1px solid #6DA5C0;
+    border-radius: 5px;
+    background-color:black; /*will change background-color of element on hover */
+    color: white !important; /*will change color of text within the element on hover */
+    border-radius: '5px' !important;
+    font-family: 'IranianSansBold'!important;
+
+    }
