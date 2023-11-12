@@ -27,9 +27,9 @@ export default function ComsumptionCoefficient( props )
                                         <tr>
                                             <td>{idx + 1}</td>
                                             <td className='text'>{item.subscriber.name}</td>
+                                            <td className='text'>{item.consumptionDemand}</td>
                                             <td className='text'>{item.calculationlDemand}</td>
-                                            <td className='text'>{item.calculationlDemand}</td>
-                                            <td className='text'>{((item.consumptionDemand*10/9) / item.calculationlDemand).toFixed(2)}</td>
+                                            <td className='text'>{((item.calculationlDemand*10/9) / item.consumptionDemand).toFixed(2)}</td>
                                         </tr>
                                     )}
 

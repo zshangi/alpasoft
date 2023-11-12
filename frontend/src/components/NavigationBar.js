@@ -39,11 +39,11 @@ function NavigationBar(props) {
                             </Navbar.Brand>
                         </LinkContainer>
 
-                        <LinkContainer to="/companies" style={{borderLeft:'1px solid white'}}>
+                        <LinkContainer to="/subscribers" style={{borderLeft:'1px solid white'}}>
                             <NavLink className='navlink'>مشترکین</NavLink>
                         </LinkContainer>
                         <LinkContainer to="/formulascreen" style={{borderLeft:'1px solid white'}}>
-                            <NavLink className='navlink'>شاخص های عملکرد انرزی</NavLink>
+                            <NavLink className='navlink'>شاخص های عملکرد انرژی</NavLink>
                         </LinkContainer>
                         <NavDropdown style={{borderLeft:'1px solid white'}}
                             title={<span className='navlink'>بارگذاری قبوض</span>}
